@@ -1,9 +1,10 @@
 <?php
 
-$db['db_host'] = "localhost";
-$db['db_user'] = "root";
+// DB connection details
+$db['db_host'] = "";
+$db['db_user'] = "";
 $db['db_pass'] = "";
-$db['db_name'] = "cms";
+$db['db_name'] = "";
 
 foreach($db as $key => $value){
 
